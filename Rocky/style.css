@@ -1,0 +1,112 @@
+:root{
+  --primary-color: #27273b;
+  --secundary-color: #E65634;
+  --terceary-color: #222222;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Empieza el header*/
+header{
+  background-color: var(--primary-color);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+}
+.header-logo{
+  font-size: 4rem;
+  color: #ffffff;
+  margin: 0 1rem;
+}
+.header-nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.header-nav ul li{
+  margin: 0 0.5rem;
+}
+.header-nav ul li a{
+  font-size: 2.0rem;
+  text-decoration: none;
+  color: var(--secundary-color);
+}
+
+/*Empieza el main*/
+main{
+  background-color: var(--terceary-color);
+}
+.section-principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vh;
+}
+.principal-text{
+  margin: 4rem 0 2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+.image-our{
+  margin-bottom: 2rem;
+  width: 70vw;
+  border-radius: 40%;
+	-webkit-box-shadow: -5px 5px 8px 0px black;
+  -moz-box-shadow: -5px 5px 8px 0px black;
+  box-shadow: -5px 5px 8px 0px black;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 5rem;
+  border-radius: 10%;
+	-webkit-box-shadow: -5px 5px 8px 0px black;
+  -moz-box-shadow: -5px 5px 8px 0px black;
+  box-shadow: -5px 5px 8px 0px black;
+}
+.cardTitulo{
+  font-size: 4rem;
+  color: #ffffff;
+}
+.cardAge{
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.image-rocky{
+  margin: 2rem 0;
+  width: 48vw;
+  border-radius: 40%;
+}
+.cardText{
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 0.8rem;
+}
+.section-second{
+  display: flex;
+  flex-direction: column;
+}
+
+/*Empieza el footer*/
+footer{
+  background-color: var(--primary-color);
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
